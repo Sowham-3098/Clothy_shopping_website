@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header{
+   width:100%;
+   height:70px;
+   background-color:lightgray;
+   display:flex;
+   justify-content:center;
+}
+.header-content{
+    width:80%;
+    height:70px;
+    /* background-color:red; */
+    display:flex;
+    justify-content:space-between;
+}
+.logo{
+    width:15%;
+    height:70px;
+    /* background-color:yellow; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    font-family:Segoe UI;
+}
+.nav{
+    width:25%;
+    height:70px;
+    /* background-color:blue; */
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav_{
+    width:100%;
+    display:flex;
+    list-style-type: none;
+    /* color:white; */
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    font-size:20px;
+}
+.nav_item{
+    cursor: pointer;
+}
+.banner{
+    width:100%;
+    height:600px;
+    background-color:#ffffff;
+    overflow:hidden;
+    display:flex;
+}
+.banner-details{
+    width:60%;
+    height:600px;
+    /* background-color:gray; */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.banner-text{
+    width:70%;
+    height: 500px;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    row-gap: 10px;
+}
+.banner-title{
+    font-size :60px;
+    font-family: Segoe UI;
+    text-transform:uppercase;
+    font-weight: 300;
+}
+.highlight{
+width:60%;
+height:200px;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size: 100px;
+border:10px solid rgb(4, 60, 82);
+text-transform: uppercase;
+font-weight: bold;
+color:rgb(4, 60, 82);
+
+}
+.branding{
+    width:100%;
+    height:800px;
+    background-color: rgb(255, 255, 255);
+   padding: 20px 10%;
+   display: flex;
+  column-gap: 5%;
+  
+}
+.branding-1{
+    width:30%;
+    height:800px;
+    background-color: rgb(164, 245, 113);
+    background-image: url('him.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.branding-2{
+    width:30%;
+    height:600px;
+    background-color: rgb(60, 230, 230);
+    background-image: url('her.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+  padding:50px 5%;
+}
+.branding-3{
+    width:30%;
+    height:600px;
+    background-color: rgb(206, 92, 92);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 5%;
+    font-size:40px;
+    font-family: Segoe UI;
+
+    
+}
+.text-branding{
+
+}
